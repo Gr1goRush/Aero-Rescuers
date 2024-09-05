@@ -1,0 +1,62 @@
+{
+    "name": "InputMap",
+    "maps": [
+        {
+            "name": "Map",
+            "id": "628e321b-0c64-4b99-ad58-ff22185e48e6",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "3d7d6134-b26b-4f13-a460-ec8a18118f0d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "47edbb2f-4a12-4621-b585-0cf3a60125eb",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and touch",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39d82c23-a126-4e03-8dce-44b24f81b987",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and touch",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse and touch",
+            "bindingGroup": "Mouse and touch",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

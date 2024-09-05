@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8274287e6173e74180923845b927f02, type: 3}
+  m_Name: LevelEntity 8
+  m_EditorClassIdentifier: 
+  _framesMapEntityPrefab:
+  - {fileID: 11400000, guid: f9f1f727b71a7614b9df33c5d5e292cf, type: 2}
+  _airstripPrefab: {fileID: 11400000, guid: a14cd50bbe84b8e4e8231f103845f8de, type: 2}
+  _skydiverEntities:
+  - {fileID: 11400000, guid: 92ba8e1efa4b7d04597c7599888bf15f, type: 2}
+  - {fileID: 11400000, guid: 8d44ac447f60e0a4eaa5c40952f41a0f, type: 2}
+  - {fileID: 11400000, guid: e9efbb54cf04c1847bc0fbfc320dfe3b, type: 2}
+  _moneyEnetityPrefab: {fileID: 11400000, guid: 5a9f32b59dc8c0643a4f2c1c0cf5a136, type: 2}
+  _airTunnelEntityPrefab: {fileID: 11400000, guid: 73f6843cd66cbac408cef490e4b726a2, type: 2}
+  _cloudEntityPrefab:
+  - {fileID: 11400000, guid: 2f852e7b55a01da41b6e43d52ed631a7, type: 2}
+  - {fileID: 11400000, guid: 2083bc410ff1c2749a4a8c7dda7109e6, type: 2}
+  - {fileID: 11400000, guid: 6417ab4ad116b7142984d4da8ec457d2, type: 2}
+  _enemyPrefabs: []
+  _number: 9
+  _startFramesMap: 6
+  _countMaxSkydrivers: 50

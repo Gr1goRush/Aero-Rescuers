@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b937fcd13b9317046ad4fd11c83cca61, type: 3}
+  m_Name: PlaneEntityOrange
+  m_EditorClassIdentifier: 
+  _planeViewPrefab: {fileID: 8146763211771152819, guid: 0fa19306e27347944b9cbe2f97f54282, type: 3}
+  _skinPlane: {fileID: 11400000, guid: aef34851385ef6e47a7a0b7a9b3b73c6, type: 2}
+  _forceGravity: 20
+  _maxHeight: 4
+  _speedIncreaseHeight: 0.01
+  _speedIncreaseHeightMax: 0.5
+  _sensitivityChangeVelocity: 0.007
+  _sensitivityChangePosition: 0.05
+  _speedRotation: 5
+  _sensitivityRotation: 0.08
